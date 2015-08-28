@@ -1,0 +1,8 @@
+{ "_id" : "1", "collegeCode" : "KCM", "majorCode" : "BBIS", "yearCode" : "III", "sectionCode" : "-", "lastUpdate" : "Sat Mar 01 2014 03:03:08 GMT+0545 (NPST)" }
+{ "_id" : "2", "collegeCode" : "KU", "majorCode" : "CE", "yearCode" : "III", "sectionCode" : "-", "lastUpdate" : "Sat Apr 19 2014 20:08:08 GMT+0545 (NPST)" }
+{ "_id" : "3", "collegeCode" : "NEC", "majorCode" : "BCE", "yearCode" : "IV", "sectionCode" : "II", "lastUpdate" : "Thu May 01 2014 12:38:08 GMT+0545 (NPST)" }
+{ "_id" : "4", "collegeCode" : "NEC", "majorCode" : "BCE", "yearCode" : "III", "sectionCode" : "I", "lastUpdate" : "Thu May 01 2014 12:08:08 GMT+0545 (NPST)" }
+{ "_id" : "5", "collegeCode" : "KEC", "majorCode" : "BCT", "yearCode" : "III", "sectionCode" : "A", "lastUpdate" : "Sat May 24 2014 16:08:08 GMT+0545 (NPST)" }
+{ "_id" : "6", "collegeCode" : "KEC", "majorCode" : "BARCH", "yearCode" : "I", "sectionCode" : "A", "lastUpdate" : "Fri May 16 2014 17:08:08 GMT+0545 (NPST)" }
+{ "_id" : "7", "collegeCode" : "KEC", "majorCode" : "BEX", "yearCode" : "I", "sectionCode" : "B", "lastUpdate" : "Wed May 28 2014 08:08:08 GMT+0545 (NPST)" }
+{ "_id" : "8", "collegeCode" : "KEC", "majorCode" : "BCE", "yearCode" : "III", "sectionCode" : "A", "lastUpdate" : "Thu May 29 2014 20:08:08 GMT+0545 (NPST)" }

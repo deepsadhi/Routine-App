@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<widget xmlns     = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.bctians.routine"
+        version   = "Beta">
+
+<name>Routine</name>
+
+    <description>
+        Routine app is designed to assist students with their college schedules.
+    </description>
+
+    <author href="http://bctians.com/prototype/" email="mail@bctians.com">
+	Ashmita (http://about.me/mishraashmita)
+	Ayush	(http://about.me/ayushmaharjan)
+	Deepak	(http://about.me/deepsadhi)
+	Kshitiz	(http://about.me/kshitiztiwari)
+	Manisha	(http://about.me/manisapanta)
+    </author>
+
+
+    <feature name="http://api.phonegap.com/1.0/device" />
+
+    <preference name="permissions"                value="none"/>
+
+    <preference name="phonegap-version"           value="3.6.3" />          <!-- all: current version of PhoneGap -->
+    <preference name="orientation"                value="default" />        <!-- all: default means both landscape and portrait are enabled -->
+    <preference name="target-device"              value="universal" />      <!-- all: possible values handset, tablet, or universal -->
+    <preference name="fullscreen"                 value="false" />           <!-- all: hides the status bar at the top of the screen -->
+    <preference name="webviewbounce"              value="true" />           <!-- ios: control whether the screen 'bounces' when scrolled beyond the top -->
+    <preference name="prerendered-icon"           value="true" />           <!-- ios: if icon is prerendered, iOS will not apply it's gloss to the app's icon on the user's home screen -->
+    <preference name="stay-in-webview"            value="false" />          <!-- ios: external links should open in the default browser, 'true' would use the webview the app lives in -->
+    <preference name="ios-statusbarstyle"         value="black-opaque" />   <!-- ios: black-translucent will appear black because the PhoneGap webview doesn't go beneath the status bar -->
+    <preference name="detect-data-types"          value="true" />           <!-- ios: controls whether data types (such as phone no. and dates) are automatically turned into links by the system -->
+    <preference name="exit-on-suspend"            value="false" />          <!-- ios: if set to true, app will terminate when home button is pressed -->
+    <preference name="show-splash-screen-spinner" value="true" />           <!-- ios: if set to false, the spinner won't appear on the splash screen during app loading -->
+    <preference name="auto-hide-splash-screen"    value="true" />           <!-- ios: if set to false, the splash screen must be hidden using a JavaScript API -->
+    <preference name="disable-cursor"             value="false" />          <!-- blackberry: prevents a mouse-icon/cursor from being displayed on the app -->
+    <preference name="android-minSdkVersion"      value="8" />             <!-- android: MIN SDK version supported on the target device. MAX version is blank by default. -->
+    <preference name="android-installLocation"    value="auto" />           <!-- android: app install location. 'auto' will choose. 'internalOnly' is device memory. 'preferExternal' is SDCard. -->
+
+
+    <icon src="icon.png" />
+
+    <icon src="icons/ios/icon.png" gap:platform="ios" width="57" height="57" />
+    <icon src="icons/ios/icon72.png" gap:platform="ios" width="72" height="72" />
+<!-- retina iPad support: PhoneGap 2.5.0+ only -->
+    <icon src="icons/ios/icon72at2x.png" gap:platform="ios" width="144" height="144" />
+
+    <icon src="res/icon/android/icon36.png"   gap:platform="android"    gap:density="ldpi" />
+    <icon src="res/icon/android/icon48.png"   gap:platform="android"    gap:density="mdpi" />
+    <icon src="res/icon/android/icon72.png"   gap:platform="android"    gap:density="hdpi" />
+    <icon src="res/icon/android/icon96.png"  gap:platform="android"    gap:density="xhdpi" />
+
+    <icon src="res/icon/blackberry/icon80.png"     gap:platform="blackberry" />
+    <icon src="res/icon/blackberry/icon80.png"     gap:platform="blackberry" gap:state="hover"/>
+
+    <icon src="icons/windowsphone/icon48.png" gap:platform="winphone" />
+    <icon src="icons/windowsphone/icon173tile.png" gap:platform="winphone" gap:role="background" />
+
+    <gap:splash src="res/screen/android/screenldpiportrait.png"  gap:platform="android" gap:density="ldpi" />
+    <gap:splash src="res/screen/android/screenmdpiportrait.png"  gap:platform="android" gap:density="mdpi" />
+    <gap:splash src="res/screen/android/screenhdpiportrait.png"  gap:platform="android" gap:density="hdpi" />
+    <gap:splash src="res/screen/android/screenxhdpiportrait.png" gap:platform="android" gap:density="xhdpi" />
+    <gap:splash src="res/screen/blackberry/screen225.png"         gap:platform="blackberry" />
+    <gap:splash src="res/screen/ios/screeniphoneportrait.png"    gap:platform="ios"     width="320" height="480" />
+    <gap:splash src="res/screen/ios/screeniphoneportrait2x.png" gap:platform="ios"     width="640" height="960" />
+    <gap:splash src="res/screen/ios/screenipadportrait.png"      gap:platform="ios"     width="768" height="1024" />
+    <gap:splash src="res/screen/ios/screenipadlandscape.png"     gap:platform="ios"     width="1024" height="768" />
+    <gap:splash src="res/screen/windowsphone/screenportrait.jpg" gap:platform="winphone" />
+
+
+    <!--
+        Define access to external domains.
+
+        <access />            - a blank access tag denies access to all external resources.
+        <access origin="*" /> - a wildcard access tag allows access to all external resource.
+
+        Otherwise, you can specify specific domains:
+    -->
+    <access origin="*" />
+
+
+</widget>

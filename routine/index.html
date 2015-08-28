@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<!--<html lang=en manifest="offline.manifest"> -->
+<head>
+<title>Routine 2.1.0 Beta</title>
+<meta http-equiv=X-UA-Compatible content="IE=edge,chrome=1"/>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name=viewport content="width=device-width, initial-scale=1.0, user-scalable=0"/>
+<meta name=description content="Routine is a smartphone app aimed to assist students with their busy college schedules.">
+<meta name=keywords content="routine, routine v2.1.0 beta, routine app, schedule, bctians, students, bctians.com">
+<link type="text/plain" rel=author href="../humans.txt"/>
+<link rel=stylesheet href="css/styles.css?ver=2.1.0"/>
+<link rel="shortcut icon" href=favicon.ico type="image/x-icon">
+<link rel=icon href=favicon.ico type="image/x-icon">
+<link rel=apple-touch-icon href=touch-icon-iphone.png>
+<link rel=apple-touch-icon sizes=76x76 href=touch-icon-ipad.png>
+<link rel=apple-touch-icon sizes=120x120 href=touch-icon-iphone-retina.png>
+<link rel=apple-touch-icon sizes=152x152 href=touch-icon-ipad-retina.png>
+<link rel=apple-touch-startup-image href=startup.png>
+<meta name=apple-mobile-web-app-capable content=yes>
+<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create','UA-46095251-6','bctians.com');ga('send','pageview');</script>
+</head>
+<body>
+<div id=main-container>
+<nav id=nav>
+<div id=app-name>ROUTINE <span class=sup>beta</span></div>
+<div id=options>
+<img src="images/schedule.png" id=routine-schedule height=30px />
+<img src="images/info.png" id=information height=30px />
+<img src="images/config.png" id=configuration height=30px />
+</div>
+</nav>
+<div id=msg></div>
+<div id=remaining-time></div>
+<div id=routine style=display:block>
+<div id=slide-wrapper>
+<div class=touchslider-nav>
+<a class=touchslider-prev><span class=touchslider-prev-in><img src="images/prev.png" height=20px /></span></a><a class=touchslider-next><span class=touchslider-next-in><img src="images/next.png" height=20px /></span></a>
+<a class=touchslider-nav-item></a>
+<a class=touchslider-nav-item></a>
+<a class=touchslider-nav-item></a>
+<a class=touchslider-nav-item></a>
+<a class=touchslider-nav-item></a>
+<a class=touchslider-nav-item></a>
+<a class=touchslider-nav-item></a>
+</div>
+<div class=touchslider-viewport style="overflow:hidden;position:relative;height:345px max-width:100%;">
+<div class=dummy-class style=position:relative>
+<div id="sunday" class="touchslider-item">
+<div class=main-routine>
+<div class=day><span>Sunday</span></div>
+<div class=routine-body></div>
+</div>
+</div>
+<div id="monday" class="touchslider-item">
+<div class=main-routine>
+<div class=day><span>Monday</span></div>
+<div class=routine-body></div>
+</div>
+</div>
+<div id="tuesday" class=touchslider-item>
+<div class=main-routine>
+<div class=day><span>Tuesday</span></div>
+<div class=routine-body></div>
+</div>
+</div>
+<div id="wednesday" class=touchslider-item>
+<div class=main-routine>
+<div class=day><span>Wednesday</span></div>
+<div class=routine-body></div>
+</div>
+</div>
+<div id="thursday" class=touchslider-item>
+<div class=main-routine>
+<div class=day><span>Thursday</span></div>
+<div class=routine-body></div>
+</div>
+</div>
+<div id="friday" class=touchslider-item>
+<div class=main-routine>
+<div class=day><span>Friday</span></div>
+<div class=routine-body></div>
+</div>
+</div>
+<div id="saturday" class=touchslider-item>
+<div class=main-routine>
+<div class=day><span>Saturday</span></div>
+<div class=routine-body></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<form id=config>
+<div id=container></div>
+<div id=class>&nbsp;</div>
+<div id=lastupdate>&nbsp;</div>
+<div id=form>
+<div class=label>
+<label for=college>College:</label>
+<select name=college id=college>
+</select>
+</div>
+<div class=label>
+<label for=major>Major:</label>
+<select name=major id=major>
+</select>
+</div>
+<div class=label>
+<label for=year>Year: </label>
+<select name=year id=year>
+</select>
+</div>
+<div class=label>
+<label for=section>Section: </label>
+<select name=section id=section>
+</select>
+</div>
+<div class=label>
+<div style="width:100%; overflow:hidden;">
+<input type=button onclick="checkRoutine()" value=Submit />
+</div>
+</div>
+</div>
+</form>
+<div id=about>
+<div class=container><span class=bold>Routine</span> is a smartphone app aimed to assist students with their busy college schedules. Please report bugs or leave suggestions <a class=report href="https://docs.google.com/forms/d/1AW0Xe-CoPrClQXSw-88bbF-wh797EK_jYeMutfAGHHE/viewform" target=_blank>here</a>.
+<br><br>
+<span class=bold style="color:#3498DB">*</span> This is a prototype version of Routine. The newer version of App will have integration of all features mentioned in the document.
+</div>
+<div class=contributer>
+<div class=img-container><img src="images/email.png"/></div>
+<div class=intro>
+<div class=name>Contact Us</div>
+<div class=field></div>
+<div class=link><a href="mailto:mail@bctians.com" target=_blank>mail@bctians.com</a></div>
+</div>
+</div>
+
+</div>
+</div>
+<script src="js/jquery203.js"></script>
+<script src="js/spin.js"></script>
+<script>$(document).ready(function(){init();});$(document).ready(function(){$("#slide-wrapper").touchSlider({container:this,duration:350,delay:3000,margin:5,mouseTouch:true,namespace:"touchslider",next:".touchslider-next",pagination:".touchslider-nav-item",currentClass:"touchslider-nav-item-current",prev:".touchslider-prev",});$($('.touchslider-nav-item')[new Date().getDay()]).trigger('click');});</script>
+<script src="js/jquerytouchslider.js"></script>
+<script src="js/functions.js?ver=2.1.0"></script>
+</body>
+</html>
