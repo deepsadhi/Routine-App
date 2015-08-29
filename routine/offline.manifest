@@ -1,0 +1,25 @@
+CACHE MANIFEST
+# 2014-01-17:v2.1.0
+
+# Explicitly cached entries
+index.html
+css/styles.css
+js/functions.js
+js/jquery203.js
+js/jquerytouchslider.js
+js/spin.js
+images/next.png
+images/prev.png
+images/check.png
+images/config.png
+images/schedule.png
+favicon.ico
+
+# All other resources
+NETWORK:
+*
+
+# Additional resources to cache
+CACHE:
+images/email.png
+images/info.png

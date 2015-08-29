@@ -3,7 +3,7 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.bctians.routine"
-        version   = "Beta">
+        version   = "2.1.0">
 
 <name>Routine</name>
 
@@ -11,12 +11,7 @@
         Routine app is designed to assist students with their college schedules.
     </description>
 
-    <author href="http://bctians.com/prototype/" email="mail@bctians.com">
-	Ashmita (http://about.me/mishraashmita)
-	Ayush	(http://about.me/ayushmaharjan)
-	Deepak	(http://about.me/deepsadhi)
-	Kshitiz	(http://about.me/kshitiztiwari)
-	Manisha	(http://about.me/manisapanta)
+    <author href="https://github.com/deepsadhi/Routine-App" email="mail@bctians.com">
     </author>
 
 
