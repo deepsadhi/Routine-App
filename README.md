@@ -25,3 +25,14 @@ CONTACT US:
 -----------
 [mail@bctians.com](mail@bctians.com)
 
+UI/UX:
+------
+* [Kshitiz](http://about.me/kshitiztiwari)
+* [Manisha](http://about.me/manisapanta)
+
+DEVELOPER:
+----------
+* [Ashmita](http://about.me/mishraashmita)
+* [Ayush](http://about.me/ayushmaharjan)
+* [Deepak](http://about.me/deepsadhi)
+
