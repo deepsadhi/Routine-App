@@ -127,7 +127,7 @@ function prepareURL(collection, q, c, f){
     c = (c.length == 0) ? 'false' : c;
  
     var url;
-    url  = 'http://getroutine.appspot.com/?';
+    url  = 'http://youraccount.appspot.com/?';
     url += 'collection='+collection+'&';
     url += 'f='+f+'&';
     url += 'q='+q+'&';
