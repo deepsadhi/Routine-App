@@ -19,7 +19,7 @@ foreach($get as $param){
 }
 
 if ($status) {
-    $url  = 'https://api.mongolab.com/api/1/databases/routine/collections/'.$collection.'?';
+    $url  = 'https://api.mlab.com/api/1/databases/routine/collections/'.$collection.'?';
     $url .= 'f='.$f.'&';
     $url .= 'q='.$q.'&';
     $url .= 'c='.$c.'&';
