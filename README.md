@@ -18,7 +18,7 @@ Requirements:
 Steps we had followed:
 ----------------------
 * Hosted Routine App on our Server. Ported App to Android using PhoneGap.
-* Hosted our class informations, configurations, routines on MongoLab. Replace your MongoLab API key on line number 22 of appsopt/main.php (Sample json files can be found in noSQL directory)
+* Hosted our class informations, configurations, routines on MongoLab. Replace your [MongoLab API key](http://docs.mlab.com/data-api/#base-url) on line number 22 of appspot/main.php (Sample json files can be found in noSQL directory)
 * Used appspot as our intermediate server that bridges between MongoLab and Routine App to secure API Key. Define appspot URL on line number 130 of routine/js/functions.js
 
 CONTACT US:
